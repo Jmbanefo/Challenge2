@@ -1,0 +1,116 @@
+
+*{margin: 0px; padding: 0;border: 0; max-width: 1300px;}
+
+.top{
+    font-size: 30px;
+    color: maroon;
+    font-weight: bolder;
+    text-align: center;
+}
+
+nav ul{
+    display: flex;
+    font-size: 20px;
+    color: maroon;
+    font-weight: bolder;
+    text-decoration: none;
+    list-style-type: none;
+    float: right;
+}
+.navi{
+    padding: 20px;
+    margin: 10px;
+    background-color: sandybrown;
+}
+nav ul li{
+margin-left: 30px;
+}
+
+nav img{
+    max-width: 400px;
+    max-height: 400px;
+    padding: 0px;
+    margin: 0px;
+}
+.aboutme{
+    margin: 30px;
+    text-align: center;
+    color: #1a3c5e;
+    border: dashed;
+
+}
+.work{
+    margin: 60px;
+    text-align: center;
+    color: #1a3c5e;
+   background-color: blanchedalmond;
+
+}
+.card h3{
+    margin: 10px;
+    color: white;
+}
+.work img{
+    max-width: 900px;
+    max-height: 900px;
+    
+}
+
+footer h2 {
+    display: flex;
+    text-align: right;
+    margin: 20px;
+    
+}
+
+
+.card{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    background-color: #1a3c5e;
+}
+
+.card img{
+    max-width: 200px;
+    max-height: 200px;
+    border-width: 2px;
+}
+
+footer ul li{
+    font-size: 30px;
+    list-style-type: none;
+    
+    
+}
+.contactme{
+    margin: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 20px;
+    background-color: blanchedalmond;
+    min-width: 500px;
+}
+
+@media screen and (max-width:990px){
+    .card img{
+        width: 10%;
+    }
+    .work img{
+        width: 50%;
+    }
+    footer{
+        width: 50%;
+    }
+    footer li{
+        width: 50%;
+    }
+    
+    header{
+        background-color: rgb(237, 197, 64);
+    }
+}
+
+
+

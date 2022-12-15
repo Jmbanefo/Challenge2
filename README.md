@@ -1,3 +1,3 @@
 # Challenge2
 
-This is the beginning of challenge 2! 
+This challeneg calls for creating my own personal website, where I can showcase my talent and projects. 
